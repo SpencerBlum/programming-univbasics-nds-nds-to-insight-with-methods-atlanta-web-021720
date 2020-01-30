@@ -17,12 +17,12 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-  result = {}
-  total = 0
-  i = 0
-  # pp nds
-  while i < nds[:movies].length do
-    total += nds
+  # result = {}
+  # total = 0
+  # i = 0
+  # # pp nds
+  # while i < nds[:movies].length do
+  #   total += nds
 
 
 

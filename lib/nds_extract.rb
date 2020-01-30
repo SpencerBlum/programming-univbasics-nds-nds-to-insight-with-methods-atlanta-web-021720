@@ -8,7 +8,6 @@ require 'pp'
 
 def gross_for_director(director_data)
 
-pp 'director_data'
 
 
 end
@@ -18,7 +17,9 @@ end
 #
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
-pp 'nds'
+
+pp nds
+
 
   result = {}
   nil

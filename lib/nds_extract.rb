@@ -5,16 +5,12 @@ require 'pp'
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 
-def printed(nds)
-pp nds[0]
 
-
-end
 
 
 def gross_for_director(director_data)
 
-#pp director_data
+pp director_data
 
 
 total = 0
@@ -37,8 +33,10 @@ result = {}
   director_index = 0
   while director_index < nds.length do
     director = nds[director_index]
+    result[director[:name]] = gross_for_director(director)
+    director_index += 1
   end
 
-
+result
 
 end

@@ -16,8 +16,8 @@ pp director_data
 total = 0
 i = 0
 # pp nds
-  while i < nds[:movies].length do
-    total += nds[:movies][i][:worldwide_gross]
+  while i < director_data[:movies].length do
+    total += director_data[:movies][i][:worldwide_gross]
     i += 1
   end
   total

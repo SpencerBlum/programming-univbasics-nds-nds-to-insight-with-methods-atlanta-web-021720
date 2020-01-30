@@ -8,7 +8,7 @@ require 'pp'
 
 def gross_for_director(director_data)
 
-
+pp director_data
 
 end
 
@@ -18,6 +18,12 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
+  total = 0
+  i = 0 
   pp nds
+  while i < nds[:movies].length do 
+    total += nds
+  
+
 
 end
